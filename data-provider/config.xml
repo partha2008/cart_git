@@ -1,28 +1,28 @@
 ﻿<configuration
-    storeName="Your Shop Name"
+    storeName="My Store"
     logoImage="./assets/images/logo.png"
-    businessEmail="vinod@livelyworks.net"
+    businessEmail="partha.chowdhury@nettrackers.net"
     enableQuoteCart="1"
 >
-<messages init="Intializating ..." 
-          configLoading="Loading configurations..."
-          loading="Loading products data..." >    
-    <order_submission >
-        <success header="Thank you"> <![CDATA[
-            <strong>Request Submitted Successfully.</strong>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laboriosam dolor recusandae possimus culpa numquam magni reprehenderit, dignissimos autem. Consequatur, dolores, perferendis! Totam autem, deserunt. Laboriosam possimus voluptatum nostrum, quasi.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae natus architecto eos assumenda dolore quam eligendi unde et explicabo atque, nisi ea aliquam praesentium impedit provident numquam reiciendis voluptas, ab!
-            </p>
-            ]]> </success>
-        <failed header="Something went wrong!!"> <![CDATA[
-            <strong>Request Submission failed, try again.</strong>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae natus architecto eos assumenda dolore quam eligendi unde et explicabo atque, nisi ea aliquam praesentium impedit provident numquam reiciendis voluptas, ab!
-            </p>
-        ]]> </failed>
-    </order_submission>
-</messages>
+	<messages init="Intializating ..." 
+			  configLoading="Loading configurations..."
+			  loading="Loading products data..." >    
+		<order_submission >
+			<success header="Thank you"> <![CDATA[
+				<strong>Request Submitted Successfully.</strong>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laboriosam dolor recusandae possimus culpa numquam magni reprehenderit, dignissimos autem. Consequatur, dolores, perferendis! Totam autem, deserunt. Laboriosam possimus voluptatum nostrum, quasi.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae natus architecto eos assumenda dolore quam eligendi unde et explicabo atque, nisi ea aliquam praesentium impedit provident numquam reiciendis voluptas, ab!
+				</p>
+				]]> </success>
+			<failed header="Something went wrong!!"> <![CDATA[
+				<strong>Request Submission failed, try again.</strong>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae natus architecto eos assumenda dolore quam eligendi unde et explicabo atque, nisi ea aliquam praesentium impedit provident numquam reiciendis voluptas, ab!
+				</p>
+			]]> </failed>
+		</order_submission>
+	</messages>
 </configuration>
